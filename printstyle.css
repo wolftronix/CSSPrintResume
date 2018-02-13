@@ -25,7 +25,9 @@ h4 {
 li {
     display: block;
     text-decoration: none;
-    float: left;
+}
+li.skillitems {
+	padding-bottom: 5px;
 }
 li.leftalign {
 	text-align: left;
@@ -35,8 +37,8 @@ li.rightalign {
 	}
 .skilllist {
 	margin-top: 10px;
-	margin-bottom: -10px;
-	padding-bottom: 10px;
+	margin-bottom: -20px;
+	padding-bottom: 5px;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
